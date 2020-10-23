@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2">
+    tools:context=".BallTable">
 
 
 
@@ -91,6 +91,18 @@
             android:layout_marginRight="296dp"
             android:background="@drawable/saturne" />
 
+        <Button
+            android:id="@+id/btn_space"
+            android:layout_width="88dp"
+            android:layout_height="74dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="157dp"
+            android:layout_marginTop="319dp"
+            android:layout_marginRight="166dp"
+            android:background="@drawable/space" />
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -98,8 +110,8 @@
 
         <TextView
             android:id="@+id/text2"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_width="445dp"
+            android:layout_height="804dp" />
 
 
     </RelativeLayout>
